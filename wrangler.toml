@@ -1,5 +1,5 @@
 # wrangler.toml
-name = "gemini-proxy-panel"
+name = "saizen"
 main = "src/index.ts"
 compatibility_date = "2025-03-27"
 compatibility_flags = ["nodejs_compat"]
@@ -13,9 +13,8 @@ enabled = true
 
 [[kv_namespaces]]
 binding = "GEMINI_KEYS_KV"
-id = "123321"
+id = "d0d542a069bd4449b6996fd25e26a94f"
 
 [[kv_namespaces]]
 binding = "WORKER_CONFIG_KV"
-id = "123321"
-
+id = "d0d542a069bd4449b6996fd25e26a94f"
